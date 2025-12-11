@@ -6,4 +6,4 @@ function contains(str){
 
 console.log(contains("je mange"));
 
-// after if you are new idea , i am ready for any suggestion or questions
+// after if you are new idea , i am open to  any suggestion or questions
