@@ -1,0 +1,7 @@
+// display all elemengs of an array
+
+function showElement(arr) {
+    return arr.map(x => x) //return an array of elements 
+}
+
+console.log(showElement([5,2]))
