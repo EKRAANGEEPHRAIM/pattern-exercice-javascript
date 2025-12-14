@@ -12,4 +12,3 @@ function countOccurrencesNum(arr , x) {
     return c ;
 }
 
-console.log(countOccurrencesNum(["j ai mangé", 'maintes fois']))
