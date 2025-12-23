@@ -11,4 +11,4 @@ function countOccurrences(arr, t) {
 return count++;
 }
 
-console.log(countOccurrences([5,15,3,6,5], 5));//2
+console.log(countOccurrences([5,15,3,6,5], 5));//2D
