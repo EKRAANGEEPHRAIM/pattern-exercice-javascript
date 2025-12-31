@@ -5,4 +5,4 @@ function isLeapYear(year) {
 }
 
 
-console.log(isLeapYear(2027))
+console.log(isLeapYear(2027))//false

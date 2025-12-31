@@ -17,4 +17,4 @@
 }
 
 
-console.log(maxInArray([1,2,3,9]))
+console.log(maxInArray([1,2,3,9]))//9

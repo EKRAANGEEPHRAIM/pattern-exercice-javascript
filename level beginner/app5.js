@@ -10,4 +10,4 @@ function maxOfThree ( a , b , c) {
 }
 
 
-console.log(maxOfThree(12,15 ,9))
+console.log(maxOfThree(12,15 ,9));//15

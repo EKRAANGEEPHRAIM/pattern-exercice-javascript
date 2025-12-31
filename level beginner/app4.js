@@ -1,4 +1,4 @@
-// return the smallee of the two numbers
+// return the smallest of the two numbers
 
 
 function minOfNumbers (a , b) {
