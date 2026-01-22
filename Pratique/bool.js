@@ -14,4 +14,5 @@ function hasPairWithSum(arr,sum){
 
 
 console.log(hasPairWithSum([1,2,3,4],4))//true
+
 console.log(hasPairWithSum([1,2,3,4],20))//false
