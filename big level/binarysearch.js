@@ -18,4 +18,4 @@ function binarySearchRec(arr, target, left = 0, right = arr.length - 1) {
 
 // O(log n)
 
-console.log(binarySearchRec([1, 2, 3, 4, 5, 6, 7], 4));
+console.log(binarySearchRec([1, 2, 3, 4, 5, 6, 7], 4));//3
