@@ -1,7 +1,9 @@
 // remove the last element
- function removeLast(arr) {
-    const p = arr.slice;
+ function removeLast(arr,el) {
+    const p = arr.slice(el);
 
-    p.pop();
-    return p
+    p.pop(el);
+    return p;
  }
+
+ console.log(removeLast([1,2,3]))
