@@ -14,3 +14,5 @@ function longWord(sentence) {
 }
 
 console.log(longWord("je mange beaucoup aujourd'hui"));//aujourd ' hui;
+
+

@@ -1,8 +1,9 @@
 // replace spaces with "-"
 
 
+
 function replaceSpaces(str){
-    return str.replace(/ /g, "-");
+    return str.replace(/ /g , "-");
 }
 
-console.log(replaceSpaces("je manges")); // je-mange
+console.log(replaceSpaces("i am coming"))
