@@ -63,3 +63,17 @@ console.table(students);
 for (const { name } of students) {
   console.log(name);
 }
+/**
+ * ┌─────────┬────┬─────────┬───────┐
+│ (index) │ id │ name    │ grade │
+├─────────┼────┼─────────┼───────┤
+│ 0       │ 1  │ 'Alice' │ 90    │
+│ 1       │ 2  │ 'Bob'   │ 80    │
+│ 2       │ 4  │ 'David' │ 88    │
+│ 3       │ 5  │ 'Emma'  │ 92    │
+└─────────┴────┴─────────┴───────┘
+Alice
+Bob
+David
+Emma
+ */
