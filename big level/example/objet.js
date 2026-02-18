@@ -24,45 +24,45 @@
 
 // console.log(updateUser(user, 18 , "abidjan"))
 
-let students = [
-  { id: 1, name: "Alice", grade: 90 },
-  { id: 2, name: "Bob", grade: 75 },
-  { id: 3, name: "Charlie", grade: 85 }
-];
+// let students = [
+//   { id: 1, name: "Alice", grade: 90 },
+//   { id: 2, name: "Bob", grade: 75 },
+//   { id: 3, name: "Charlie", grade: 85 }
+// ];
 
 
-//add a student
-function addStudent(students, student) {
-  return [...students, student];
-}
+// //add a student
+// function addStudent(students, student) {
+//   return [...students, student];
+// }
 
-// update
-function updateStudentGrade(students, id, newGrade) {
-  return students.map(student =>
-    student.id === id
-      ? { ...student, grade: newGrade }
-      : student
-  );
-}
+// // update
+// function updateStudentGrade(students, id, newGrade) {
+//   return students.map(student =>
+//     student.id === id
+//       ? { ...student, grade: newGrade }
+//       : student
+//   );
+// }
 
-//delete a student
-function deleteStudent(students, id) {
-  return students.filter(student => student.id !== id);
-}
+// //delete a student
+// function deleteStudent(students, id) {
+//   return students.filter(student => student.id !== id);
+// }
 
-// Actions
-students = addStudent(students, { id: 4, name: "David", grade: 88 });
-students = addStudent(students, { id: 5, name: "Emma", grade: 92 });
-students = updateStudentGrade(students, 2, 80);
-students = deleteStudent(students, 3);
+// // Actions
+// students = addStudent(students, { id: 4, name: "David", grade: 88 });
+// students = addStudent(students, { id: 5, name: "Emma", grade: 92 });
+// students = updateStudentGrade(students, 2, 80);
+// students = deleteStudent(students, 3);
 
-console.table(students);
+// console.table(students);
 
 
 // extract only the names using destructuring
-for (const { name } of students) {
-  console.log(name);
-}
+// for (const { name } of students) {
+//   console.log(name);
+// }
 /**
  * ┌─────────┬────┬─────────┬───────┐
 │ (index) │ id │ name    │ grade │
@@ -77,3 +77,35 @@ Bob
 David
 Emma
  */
+
+
+
+let persons = [
+  {name : 'Junior' , id : 1 , nationnality : 'Ivoirienne'},
+  {name : 'Prince' , id : 2 , nationnality : 'Ivoirienne'},
+  {name : 'Maryse' , id : 3 , nationnality : 'Ivoirienne'},
+]
+
+
+function addPerson(persons , person){
+  return [...persons , person]
+}
+
+ function updatePerson(persons , id , nationnality){
+  return persons.map(person => 
+    person.id === id ? {...person , nationnality} : person
+  )
+ }
+
+ function deletePerson(id ) {
+  return persons.filter(x => x.id !== id ).map( (x , index) => ({
+    ...x,
+    id : index + 1
+  }))
+ }
+ 
+
+
+
+ 
+ console.table(persons)
