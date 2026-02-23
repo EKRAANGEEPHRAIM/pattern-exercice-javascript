@@ -1,5 +1,5 @@
 // group of anagrams
-
+//with object
 function groupAnagrams(strs){
     const map = {};
 
@@ -8,6 +8,7 @@ function groupAnagrams(strs){
          * 
         */
 
+        
 
         const key = word.split("").sort().join("");
         
