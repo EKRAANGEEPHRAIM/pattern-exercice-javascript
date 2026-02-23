@@ -17,4 +17,4 @@ for (let ch of str.toLowerCase()){
 return c ;
 }
 // example
-console.log(countVowel('eat'))
+console.log(countVowel('eat'))//2
