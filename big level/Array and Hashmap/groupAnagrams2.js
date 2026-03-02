@@ -22,5 +22,5 @@ const words = ["eat", "tea", "tan", "ate", "nat", "bat"];
 
 console.log(groupAnagrams(words))/**
  * [ [ 'eat', 'tea', 'ate' ], [ 'tan', 'nat' ], [ 'bat' ] ]
- */
+ */D
 
