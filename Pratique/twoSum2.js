@@ -1,6 +1,4 @@
 // twoSum optimal
-
-
 /**
  * @param {Array} arr
  * @param {number} target
@@ -24,6 +22,5 @@ function twoSum(arr , target){
         seen.set(arr[i], i)
     }
 }
-
 //O(n)
 console.log(twoSum([1,2,3,4,5,6], 9)) // [3 , 4]
