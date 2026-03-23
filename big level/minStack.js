@@ -1,5 +1,4 @@
 //Min stack
-
 class MinStack {
   constructor() {
     this.stack = [];
