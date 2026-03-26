@@ -1,14 +1,8 @@
 /**
  * Reverse Polish Notation (RPN) is a method of mathematical notation where operators follow their operands.
-
-
-Unlike the classical (infixed) notation such as 3 + 4 , 34 +
-
-, we write
-
-.The calculation is based on a stack (LIFO: Last-In, First-Out)
+Unlike the classical (infixed) notation such as 3 + 4 , 34 +, we write.
+The calculation is based on a stack (LIFO: Last-In, First-Out)
  */
-
 
 function evalRPN(tokens) {
     const stack = [];
