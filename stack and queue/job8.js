@@ -1,15 +1,8 @@
 /**
- * Given an array of nums and an integer k, return the maximum of each window of size k that slides from left to right. Solve it in O(n) using a double-ended queue (Deque).
+ * Given an array of nums and an integer k, 
+ * return the maximum of each window of size k that slides from left to right. 
+ * Solve it in O(n) using a double-ended queue (Deque).
  */
-
-
-/**
- * 
- * @param {*} nums 
- * @param {*} k 
- * @returns 
- */
-
 
 function maxSlidingWindow(nums, k) {
   const result = [], deque = []; // indices, descending
