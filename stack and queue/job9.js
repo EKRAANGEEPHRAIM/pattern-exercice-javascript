@@ -8,7 +8,7 @@ class ListNode {
   }
 }
 
-// construire la liste : 1 → 2 → 3 → 4 → 5
+// building list: 1 → 2 → 3 → 4 → 5
 const head = new ListNode(1);
 head.next = new ListNode(2);
 head.next.next = new ListNode(3);
