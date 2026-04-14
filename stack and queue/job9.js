@@ -1,6 +1,4 @@
 // finding the middle ground (fast & slow)
-
-
 class ListNode {
   constructor(val) {
     this.val = val;
