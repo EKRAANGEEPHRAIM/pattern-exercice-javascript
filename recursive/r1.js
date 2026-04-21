@@ -1,7 +1,9 @@
 //Flatten an array (recursively)
 
 
-// the goal is to flatten an array of any depth into a single-level array. The function will check if each element is an array, and if it is, it will call itself recursively to flatten that sub-array. If the element is not an array, it will be added to the result array.  
+// the goal is to flatten an array of any depth into a single-level array. 
+// The function will check if each element is an array, and if it is, it will call itself recursively to flatten that sub-array. 
+// If the element is not an array, it will be added to the result array.  
 function flattenDeep(arr){
     let result = []; // initialize an empty array to store the flattened result
 
